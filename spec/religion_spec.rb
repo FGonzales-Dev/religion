@@ -7,14 +7,14 @@ describe Religion do
   end
 
   context "::GOVERNMENT" do
-    it "should be 12" do
-      Religion::RELIGION.count.should == 12
+    it "should be 15" do
+      Religion::RELIGION.count.should == 15
     end
   end
 
   context "::GOVERNMENT" do
     it "should be 12" do
-      Religion::RELIGION.count.should == 12
+      Religion::RELIGION.count.should == 15
     end
   end
 
